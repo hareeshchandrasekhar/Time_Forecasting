@@ -4,5 +4,4 @@ streamlit
 numpy
 seaborn
 matplotlib
-ARIMA
 seaborn
