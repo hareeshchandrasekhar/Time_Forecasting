@@ -21,7 +21,7 @@ from statsmodels.tsa.arima.model import ARIMA
 
 
 # load the model from disk
-yearly_model = pickle.load(open(r'C:\Users\chandra shekhar\Desktop\project p143\Deployment\Forecast_arima.pkl', 'rb'))
+yearly_model = pickle.load(open(r'Forecast_arima.pkl', 'rb'))
 
 #monthly_model = load(open(r'C:\Users\Subash S\PycharmProjects\P130_Deployment\CO2_Forecast_arima_monthly.pkl', 'rb'))
 
