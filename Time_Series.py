@@ -65,7 +65,7 @@ nav = st.sidebar.radio("", ["Yearly"])
 
 
 
-data2 = pd.read_csv(r"C:\Users\chandra shekhar\Desktop\project p143\Deployment\CO2 dataset.csv",header=0, index_col=0,parse_dates=True )
+data2 = pd.read_csv(r"CO2 dataset.csv",header=0, index_col=0,parse_dates=True )
 
 
 final_arima = ARIMA(data2['CO2'],order = (3,1,4))
