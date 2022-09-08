@@ -2,6 +2,7 @@ pandas==1.4.2
 sklearn 
 streamlit
 numpy
-pickle==4.0.0
 seaborn
 matplotlib
+ARIMA
+seaborn
